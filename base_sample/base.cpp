@@ -17,22 +17,23 @@ int main (void){
     LL str_num;
     LL sum;
    
-    cin>>T;
-    cin.ignore();
-    for (int i=0;i<T;i++){
+    // cin>>T;
+    // cin.ignore();
+    cout<<"Hello world!"<<endl;
+    // for (int i=0;i<T;i++){
        
-       getline(cin,line);
-       ss.str("");
-       ss.clear();
-       ss<<line;
-       sum=0;
-       while(ss>>str){
-          if (isdigit(str[0])!=0){
-              sum=sum+stoi(str);
-          }
+    //    getline(cin,line);
+    //    ss.str("");
+    //    ss.clear();
+    //    ss<<line;
+    //    sum=0;
+    //    while(ss>>str){
+    //       if (isdigit(str[0])!=0){
+    //           sum=sum+stoi(str);
+    //       }
           
-       }
-       cout<<sum<<endl;
-    }
+    //    }
+    //    cout<<sum<<endl;
+    // }
     return 0;
 }
